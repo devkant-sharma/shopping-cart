@@ -1,0 +1,15 @@
+.top-nav {
+  background: #fff;
+  width: 100%;
+  min-height: 3rem;
+  box-shadow: $box-shadow;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0.5rem;
+
+  &__title {
+    word-break: break-all;
+    font-weight: 600;
+  }
+}
